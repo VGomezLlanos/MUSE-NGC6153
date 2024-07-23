@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ngc_muse"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.11"
+joblib = "^1.2.0"
+numpy = "^1.24.3"
+scipy = "^1.10.1"
+PyNeb = "^1.1.17"
+ipython = "^8.12.0"
+matplotlib = "^3.7.1"
+astropy = "^5.2.2"
+h5py = "^3.8.0"
+jupyterlab = "^3.6.3"
+pandas = "^2.0.1"
+catboost = "^1.1.1"
+ai4neb = {git = "https://github.com/VGomezLlanos/AI4neb.git"}
+pyCloudy = "^0.9.12"
+ipykernel = "^6.29.3"
+SQLAlchemy = "^2.0.27"
+pymysql = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
