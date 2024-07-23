@@ -81,4 +81,4 @@ Other parameters of interest can be modified in such file
 
 9) The figures and tables of the paper can be created running the code figuras_asrticulo.py
 
-10) ICFs and elemental abundances using machine learning techniques are computed using the notebook ICF_NGC6153_chris2.ipynb 
+10) ICFs and elemental abundances using machine learning techniques are computed using the notebook ICF_ABUND_NGC6153.ipynb
